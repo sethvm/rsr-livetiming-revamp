@@ -1,0 +1,20 @@
+#hero {
+    color: white;
+    text-align: center;
+    background-image: url('ferrari-rim.png');
+}
+
+#hero hr {
+    width: 250px;
+    border: 0.5px solid white;
+}
+
+.custom-container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.red-header {
+    color: white;
+    background-color: #a20000;
+}

@@ -1,14 +1,27 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F0F0F0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a20000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #890000;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+    padding-top: 75px;
     background-color: #e7e7e7;
 }
 
 h1 {
     font-weight: 600;
-}
-
-hr {
-    width: 250px;
 }
 
 a:hover {
@@ -17,21 +30,6 @@ a:hover {
 
 li a {
     font-size: 0.9em;
-}
-
-#hero {
-    color: white;
-    text-align: center;
-    background-image: url('https://images.unsplash.com/photo-1506727641051-70b0545112bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
-}
-
-#hero hr {
-    border: 0.5px solid white;
-}
-
-.custom-container {
-    max-width: 1920px;
-    margin: 0 auto;
 }
 
 .footer {

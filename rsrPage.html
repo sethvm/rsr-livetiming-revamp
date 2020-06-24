@@ -10,11 +10,12 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <!-- Custom styles here -->
         <link rel="stylesheet" type="text/css" href="rsrPage.css">
+        <link rel="stylesheet" type="text/css" href="rsrLanding.css">
     </head>
 
     <body>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">RSR LiveTiming</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,9 +107,94 @@
                 <p class="lead">Leaderboard plaftorm for Assetto Corsa</p>
             </div>
             <div class="container-fluid">
-                <h4>20 drivers currently online</h4>
-                <h4>Latest driver activity</h4>
-                <h4>Hotlap updates</h4>
+                <hr>
+                <!-- driver counter -->
+                <div class="container-fluid">
+                    <h4><strong>52</strong> drivers currently online</h4>
+                </div>
+                <hr>
+                <!-- activity table -->
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="red-header">
+                            <th scope="col">Latest Driver Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <strong>Username</strong> has completed a lap at <strong>Trackname/Carname</strong>. Lap #42: <strong>1:41.658</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Firstname Lastname</strong> has completed a lap at <strong>Trackname/Carname</strong>. Lap #42: <strong>1:41.658</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Username</strong> has completed a lap at <strong>Trackname/Carname</strong>. Lap #42: <strong>INVALID</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Username</strong> has completed a lap at <strong>Trackname/Carname</strong>. Lap #42: <strong>1:41.658</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <!-- hotlap updates -->
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="red-header">
+                            <th scope="col">Latest Leaderboard Updates</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                2020-06-24 12:43:20: <strong>Username</strong> has improved their laptime at <strong>Trackname/Carname</strong> and is now in position <strong>#420</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020-06-24 12:43:20: <strong>Username</strong> has improved their laptime at <strong>Trackname/Carname</strong> and is now in position <strong>#1150</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020-06-24 12:43:20: <strong>Username</strong> has improved their laptime at <strong>Trackname/Carname</strong> and is now in position <strong>#35</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020-06-24 12:43:20: <strong>Username</strong> has improved their laptime at <strong>Trackname/Carname</strong> and is now in position <strong>#75</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020-06-24 12:43:20: <strong>Firstname Lastname</strong> has improved their laptime at <strong>Trackname/Carname</strong> and is now in position <strong>#35</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020-06-24 12:43:20: <strong>Firstname Lastname</strong> has improved their laptime at <strong>Trackname/Carname</strong> and is now in position <strong>#2</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020-06-24 12:43:20: <strong>Firstname Lastname</strong> has improved their laptime at <strong>Trackname/Carname</strong> and is now in position <strong>#720</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020-06-24 12:43:20: <strong>Firstname Lastname</strong> has improved their laptime at <strong>Trackname/Carname</strong> and is now in position <strong>#116</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
             </div>
         </div>
 
@@ -118,7 +204,8 @@
                 <span class="align-middle"><button type="button" class="btn btn-warning">Donate</button></span>
                 <div class="center-txt">
                     Built by Seth Morenos, 2020.
-                    Login powered by <a href="https://store.steampowered.com/">STEAM</a></div>
+                    Login powered by <a href="https://store.steampowered.com/">STEAM</a>
+                </div>
             </div>
         </footer>
 
