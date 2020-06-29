@@ -1,7 +1,7 @@
 #hero {
     color: white;
     text-align: center;
-    background-image: url('ferrari-rim.png');
+    background-image: url('../images/ferrari-rim.png');
 }
 
 #hero hr {
